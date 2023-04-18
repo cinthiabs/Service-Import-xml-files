@@ -1,12 +1,15 @@
 ﻿using Business.Import.files.Interface;
 using Entities.Import.files.Entities;
+using Infrastructure.Import.files.Interface;
 using Infrastructure.Import.files.Query;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Metadata;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Linq;
@@ -15,61 +18,76 @@ namespace Business.Import.files.Service
 {
     public class Service : IService
     {
-        private readonly Query _Query;
-        public Service(Query Querys)
+        private readonly IQuery _Query;
+        private readonly IConfiguration _Configuration;
+        public Service(IQuery Query, IConfiguration Configuration)
         {
-            _Query = Querys;
+            _Query = Query;
+            _Configuration = Configuration;
         }
 
         public void Execute()
         {
-            var inputFolder = "C:\\Files";
-            var outputFolder = "C:\\Files\\Output";
+            var inputFolder = "C:\\Files\\";
+            var outputFolder = "C:\\Files\\Output\\";
 
             var searchFiles = GetFiles(inputFolder);
-            if (searchFiles != null)
+            var count = searchFiles.Count();
+            if (count != 0)
             {
-                ProcessOrder(searchFiles, outputFolder);
+                ProcessOrder(searchFiles, outputFolder, inputFolder );
             }
-            else Console.Write("empty folder!"); 
+            else Console.WriteLine("empty folder!"); 
         }
-        public void ProcessOrder(string[] searchFiles, string outputFolder)
+        public void ProcessOrder(string[] searchFiles, string outputFolder, string inputFolder)
         {
             for (var file = 0; file < searchFiles.Length; file++)
             {
                 var reader = FileReader(searchFiles[file]);
-                ValidOrder(reader, outputFolder , searchFiles[file]);
+                ValidOrder(reader, outputFolder , searchFiles[file], inputFolder);
             }
         }
         public string[] GetFiles(string file)
         {
             string[] files = Directory.GetFiles(file);
-
             return files;
         }
-        public bool ValidOrder(Order order , string outputFolder , string File)
+        public bool ValidOrder(Order order , string outputFolder , string File, string inputFolder)
         {
             var query = true;
-            _Query.QueryRequest(order);
-            if (query == false)
+            try
             {
-                bool insert = _Query.InsertOrder(order);
-                if (insert == true)
+                int validation =  _Query.QueryRequest(order);
+                if (validation == 0)
                 {
-                   // InsertLog(order, File, 1);
-                    MoveFile(File, outputFolder, 1);
+                    query = _Query.InsertOrder(order);
+                    if (query == true)
+                    {
+                        var jsonString = JsonSerializer.Serialize(order);
+                        _Query.InsertLog(jsonString, File, 1);
+                        MoveFile(File, outputFolder, inputFolder);
+                        Console.WriteLine($@"Imported order! {order.Document}");
+                    }
+                }
+                else
+                {
+                    MoveFile(File, outputFolder, inputFolder);
+                    Console.WriteLine("Order already imported, moved");
                 }
             }
+            catch (Exception Ex)
+            {
+                _Query.InsertLog("Error", Ex.Message, 0);
+            }
+
             return query;
         }
-        public void MoveFile(string File, string outputFolder, int sucess)
+        public void MoveFile(string File, string outputFolder, string inputFolder)
         {
-            string dadosConfig = "";
             var filename = File.Split('\\');
             string name = filename[filename.Length - 1];
-            Directory.Move(outputFolder + name, dadosConfig + name);
+            Directory.Move(inputFolder + name, outputFolder + name);
         }
-
         public Order FileReader(string file)
         {
             Order order = new Order();
@@ -122,25 +140,18 @@ namespace Business.Import.files.Service
                     {
                         order.Volume = 1;
                     }
-                    else
-                    {
-                        order.Volume = Convert.ToInt32(vol[0]["qVol"].InnerText);
-                    }
+                    else order.Volume = Convert.ToInt32(vol[0]["qVol"].InnerText);
                     if (String.IsNullOrEmpty(vol[0]["pesoB"].InnerText))
                     {
                         order.Weight = "0";
                     }
-                    else
-                    {
-                        order.Weight = vol[0]["pesoB"].InnerText;
-                    }
-
+                    else order.Weight = vol[0]["pesoB"].InnerText;
             }
             catch (Exception Ex)
             {
-              _ =  Ex;
+                _Query.InsertLog("Error", Ex.Message, 0);
             }
-           
+
             return order;
         }
     }

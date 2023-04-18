@@ -13,8 +13,8 @@ namespace Business.Import.files.Interface
         public void Execute();
         public string[] GetFiles(string file);
         public Order FileReader(string file);
-        public void ProcessOrder(string[] searchFiles, string outputFolder);
-        public bool ValidOrder(Order order, string outputFolder, string File);
-        public void MoveFile(string File, string outputFolder, int sucess);
+        public void ProcessOrder(string[] searchFiles, string outputFolder, string inputFolder);
+        public bool ValidOrder(Order order, string outputFolder, string File, string inputFolder);
+        public void MoveFile(string File, string outputFolder, string inputFolder);
     }
 }

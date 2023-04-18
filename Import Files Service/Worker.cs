@@ -1,5 +1,8 @@
 using Business.Import.files.Interface;
 using Business.Import.files.Service;
+using Infrastructure.Import.files.Data;
+using Microsoft.Extensions.Configuration;
+using System.Configuration;
 
 namespace Import_Files_Service
 {
@@ -7,10 +10,11 @@ namespace Import_Files_Service
     {
         private readonly ILogger<Worker> _logger;
         private readonly IService _Service;
-        public Worker(ILogger<Worker> logger, IService Service)
+        public Worker(ILogger<Worker> logger, IService Service, IConfiguration Configuration)
         {
             _Service = Service;
             _logger = logger;
+            Setting.ConnectionStringDefault = Configuration.GetConnectionString("DefaultConnection");
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -19,7 +23,7 @@ namespace Import_Files_Service
             {
                 _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
                 _Service.Execute();
-                await Task.Delay(1000, stoppingToken);
+                await Task.Delay(30000, stoppingToken);
             }
         }
     }

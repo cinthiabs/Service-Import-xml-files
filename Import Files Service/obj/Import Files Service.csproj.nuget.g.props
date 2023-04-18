@@ -16,4 +16,9 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\6.0.1\buildTransitive\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
   </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_VisualStudio_Threading_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Threading_Analyzers)' == '' ">C:\Users\LENOVO-EQP364\.nuget\packages\microsoft.visualstudio.threading.analyzers\17.1.46</PkgMicrosoft_VisualStudio_Threading_Analyzers>
+    <PkgNUnitTestAdapter_WithFramework Condition=" '$(PkgNUnitTestAdapter_WithFramework)' == '' ">C:\Users\LENOVO-EQP364\.nuget\packages\nunittestadapter.withframework\2.0.0</PkgNUnitTestAdapter_WithFramework>
+    <PkgMicrosoft_ServiceHub_Analyzers Condition=" '$(PkgMicrosoft_ServiceHub_Analyzers)' == '' ">C:\Users\LENOVO-EQP364\.nuget\packages\microsoft.servicehub.analyzers\4.1.3102</PkgMicrosoft_ServiceHub_Analyzers>
+  </PropertyGroup>
 </Project>

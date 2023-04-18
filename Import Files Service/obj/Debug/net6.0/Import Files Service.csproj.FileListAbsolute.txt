@@ -50,3 +50,186 @@ C:\GITHUB\Import files\Import Files Service\bin\Debug\net6.0\Infrastructure.Impo
 C:\GITHUB\Import files\Import Files Service\bin\Debug\net6.0\Business.Import.files.pdb
 C:\GITHUB\Import files\Import Files Service\bin\Debug\net6.0\Entities.Import.files.pdb
 C:\GITHUB\Import files\Import Files Service\bin\Debug\net6.0\Infrastructure.Import.files.pdb
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\appsettings.Development.json
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\appsettings.json
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Import Files Service.exe
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Import Files Service.deps.json
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Import Files Service.runtimeconfig.json
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Import Files Service.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Import Files Service.pdb
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Dapper.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Configuration.CommandLine.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Hosting.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Logging.Console.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Logging.Debug.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventLog.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Logging.EventSource.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.Diagnostics.EventLog.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Business.Import.files.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Entities.Import.files.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Infrastructure.Import.files.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Business.Import.files.pdb
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Entities.Import.files.pdb
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Infrastructure.Import.files.pdb
+C:\GITHUB\Service-Import-xml-files\Import Files Service\obj\Debug\net6.0\Import Files Service.csproj.AssemblyReference.cache
+C:\GITHUB\Service-Import-xml-files\Import Files Service\obj\Debug\net6.0\Import Files Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\GITHUB\Service-Import-xml-files\Import Files Service\obj\Debug\net6.0\Import Files Service.AssemblyInfoInputs.cache
+C:\GITHUB\Service-Import-xml-files\Import Files Service\obj\Debug\net6.0\Import Files Service.AssemblyInfo.cs
+C:\GITHUB\Service-Import-xml-files\Import Files Service\obj\Debug\net6.0\Import Files Service.csproj.CoreCompileInputs.cache
+C:\GITHUB\Service-Import-xml-files\Import Files Service\obj\Debug\net6.0\Import Files Service.csproj.CopyComplete
+C:\GITHUB\Service-Import-xml-files\Import Files Service\obj\Debug\net6.0\Import Files Service.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\obj\Debug\net6.0\refint\Import Files Service.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\obj\Debug\net6.0\Import Files Service.pdb
+C:\GITHUB\Service-Import-xml-files\Import Files Service\obj\Debug\net6.0\Import Files Service.genruntimeconfig.cache
+C:\GITHUB\Service-Import-xml-files\Import Files Service\obj\Debug\net6.0\ref\Import Files Service.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\MessagePack.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.ServiceHub.Framework.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.ServiceHub.Resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.VisualStudio.RemoteControl.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.VisualStudio.RpcContracts.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.VisualStudio.Telemetry.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.VisualStudio.Threading.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.VisualStudio.Utilities.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.VisualStudio.Utilities.Internal.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Microsoft.VisualStudio.Validation.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Nerdbank.Streams.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\NUnit.VisualStudio.TestAdapter.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\nunit.core.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\nunit.core.interfaces.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\nunit.framework.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\nunit.util.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\StreamJsonRpc.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.CodeDom.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.ComponentModel.Composition.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.Composition.Convention.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.Composition.Hosting.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.Composition.Runtime.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.Composition.TypedParts.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.Management.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\System.Threading.AccessControl.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\cs\Microsoft.ServiceHub.Framework.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\de\Microsoft.ServiceHub.Framework.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\es\Microsoft.ServiceHub.Framework.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\fr\Microsoft.ServiceHub.Framework.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\it\Microsoft.ServiceHub.Framework.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ja\Microsoft.ServiceHub.Framework.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ko\Microsoft.ServiceHub.Framework.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\pl\Microsoft.ServiceHub.Framework.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\pt-BR\Microsoft.ServiceHub.Framework.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ru\Microsoft.ServiceHub.Framework.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\tr\Microsoft.ServiceHub.Framework.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\zh-Hans\Microsoft.ServiceHub.Framework.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\zh-Hant\Microsoft.ServiceHub.Framework.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\cs\Microsoft.ServiceHub.Resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\de\Microsoft.ServiceHub.Resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\es\Microsoft.ServiceHub.Resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\fr\Microsoft.ServiceHub.Resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\it\Microsoft.ServiceHub.Resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ja\Microsoft.ServiceHub.Resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ko\Microsoft.ServiceHub.Resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\pl\Microsoft.ServiceHub.Resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\pt-BR\Microsoft.ServiceHub.Resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ru\Microsoft.ServiceHub.Resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\tr\Microsoft.ServiceHub.Resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\zh-Hans\Microsoft.ServiceHub.Resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\zh-Hant\Microsoft.ServiceHub.Resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\cs\Microsoft.VisualStudio.Threading.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\de\Microsoft.VisualStudio.Threading.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\es\Microsoft.VisualStudio.Threading.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\fr\Microsoft.VisualStudio.Threading.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\it\Microsoft.VisualStudio.Threading.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ja\Microsoft.VisualStudio.Threading.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ko\Microsoft.VisualStudio.Threading.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\pl\Microsoft.VisualStudio.Threading.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.Threading.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ru\Microsoft.VisualStudio.Threading.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\tr\Microsoft.VisualStudio.Threading.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.Threading.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.Threading.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\cs\Microsoft.VisualStudio.Utilities.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\de\Microsoft.VisualStudio.Utilities.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\en\Microsoft.VisualStudio.Utilities.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\es\Microsoft.VisualStudio.Utilities.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\fr\Microsoft.VisualStudio.Utilities.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\it\Microsoft.VisualStudio.Utilities.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ja\Microsoft.VisualStudio.Utilities.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ko\Microsoft.VisualStudio.Utilities.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\pl\Microsoft.VisualStudio.Utilities.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.Utilities.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ru\Microsoft.VisualStudio.Utilities.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\tr\Microsoft.VisualStudio.Utilities.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.Utilities.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.Utilities.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\cs\Microsoft.VisualStudio.Validation.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\de\Microsoft.VisualStudio.Validation.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\es\Microsoft.VisualStudio.Validation.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\fr\Microsoft.VisualStudio.Validation.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\it\Microsoft.VisualStudio.Validation.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ja\Microsoft.VisualStudio.Validation.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ko\Microsoft.VisualStudio.Validation.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\pl\Microsoft.VisualStudio.Validation.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.Validation.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ru\Microsoft.VisualStudio.Validation.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\tr\Microsoft.VisualStudio.Validation.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.Validation.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.Validation.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\cs\StreamJsonRpc.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\de\StreamJsonRpc.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\es\StreamJsonRpc.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\fr\StreamJsonRpc.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\it\StreamJsonRpc.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ja\StreamJsonRpc.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ko\StreamJsonRpc.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\pl\StreamJsonRpc.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\pt-BR\StreamJsonRpc.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\ru\StreamJsonRpc.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\tr\StreamJsonRpc.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\zh-Hans\StreamJsonRpc.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\zh-Hant\StreamJsonRpc.resources.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+C:\GITHUB\Service-Import-xml-files\Import Files Service\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Threading.AccessControl.dll

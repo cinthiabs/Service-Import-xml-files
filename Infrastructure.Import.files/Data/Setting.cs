@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entities.Import.files.Entities
+namespace Infrastructure.Import.files.Data
 {
-    public class LogIntegration
+    public class Setting
     {
+        public static string ConnectionStringDefault { get; set; }
     }
 }

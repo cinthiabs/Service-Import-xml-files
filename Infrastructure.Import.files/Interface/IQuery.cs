@@ -9,8 +9,8 @@ namespace Infrastructure.Import.files.Interface
 {
     public interface IQuery
     {
-        public bool QueryRequest(Order order);
+        public int QueryRequest(Order order);
         public bool InsertOrder(Order order);
-        public bool InsertLog(Order order, string outputFolder, int sucess);
+        public bool InsertLog(string jsonString, string File, int sucess);
     }
 }

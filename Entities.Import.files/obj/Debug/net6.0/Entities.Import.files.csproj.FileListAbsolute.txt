@@ -10,3 +10,15 @@ C:\GITHUB\Import files\Entities.Import.files\obj\Debug\net6.0\Entities.Import.fi
 C:\GITHUB\Import files\Entities.Import.files\obj\Debug\net6.0\refint\Entities.Import.files.dll
 C:\GITHUB\Import files\Entities.Import.files\obj\Debug\net6.0\Entities.Import.files.pdb
 C:\GITHUB\Import files\Entities.Import.files\obj\Debug\net6.0\ref\Entities.Import.files.dll
+C:\GITHUB\Service-Import-xml-files\Entities.Import.files\bin\Debug\net6.0\Entities.Import.files.deps.json
+C:\GITHUB\Service-Import-xml-files\Entities.Import.files\bin\Debug\net6.0\Entities.Import.files.dll
+C:\GITHUB\Service-Import-xml-files\Entities.Import.files\bin\Debug\net6.0\Entities.Import.files.pdb
+C:\GITHUB\Service-Import-xml-files\Entities.Import.files\obj\Debug\net6.0\Entities.Import.files.csproj.AssemblyReference.cache
+C:\GITHUB\Service-Import-xml-files\Entities.Import.files\obj\Debug\net6.0\Entities.Import.files.GeneratedMSBuildEditorConfig.editorconfig
+C:\GITHUB\Service-Import-xml-files\Entities.Import.files\obj\Debug\net6.0\Entities.Import.files.AssemblyInfoInputs.cache
+C:\GITHUB\Service-Import-xml-files\Entities.Import.files\obj\Debug\net6.0\Entities.Import.files.AssemblyInfo.cs
+C:\GITHUB\Service-Import-xml-files\Entities.Import.files\obj\Debug\net6.0\Entities.Import.files.csproj.CoreCompileInputs.cache
+C:\GITHUB\Service-Import-xml-files\Entities.Import.files\obj\Debug\net6.0\Entities.Import.files.dll
+C:\GITHUB\Service-Import-xml-files\Entities.Import.files\obj\Debug\net6.0\refint\Entities.Import.files.dll
+C:\GITHUB\Service-Import-xml-files\Entities.Import.files\obj\Debug\net6.0\Entities.Import.files.pdb
+C:\GITHUB\Service-Import-xml-files\Entities.Import.files\obj\Debug\net6.0\ref\Entities.Import.files.dll

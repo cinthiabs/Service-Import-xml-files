@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GITHUB\\Import files\\Import Files Service\\Import Files Service.csproj": {}
+    "C:\\GITHUB\\Service-Import-xml-files\\Import Files Service\\Import Files Service.csproj": {}
   },
   "projects": {
-    "C:\\GITHUB\\Import files\\Business.Import.files\\Business.Import.files.csproj": {
+    "C:\\GITHUB\\Service-Import-xml-files\\Business.Import.files\\Business.Import.files.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GITHUB\\Import files\\Business.Import.files\\Business.Import.files.csproj",
+        "projectUniqueName": "C:\\GITHUB\\Service-Import-xml-files\\Business.Import.files\\Business.Import.files.csproj",
         "projectName": "Business.Import.files",
-        "projectPath": "C:\\GITHUB\\Import files\\Business.Import.files\\Business.Import.files.csproj",
+        "projectPath": "C:\\GITHUB\\Service-Import-xml-files\\Business.Import.files\\Business.Import.files.csproj",
         "packagesPath": "C:\\Users\\LENOVO-EQP364\\.nuget\\packages\\",
-        "outputPath": "C:\\GITHUB\\Import files\\Business.Import.files\\obj\\",
+        "outputPath": "C:\\GITHUB\\Service-Import-xml-files\\Business.Import.files\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\GITHUB\\Import files\\Entities.Import.files\\Entities.Import.files.csproj": {
-                "projectPath": "C:\\GITHUB\\Import files\\Entities.Import.files\\Entities.Import.files.csproj"
+              "C:\\GITHUB\\Service-Import-xml-files\\Entities.Import.files\\Entities.Import.files.csproj": {
+                "projectPath": "C:\\GITHUB\\Service-Import-xml-files\\Entities.Import.files\\Entities.Import.files.csproj"
               },
-              "C:\\GITHUB\\Import files\\Infrastructure.Import.files\\Infrastructure.Import.files.csproj": {
-                "projectPath": "C:\\GITHUB\\Import files\\Infrastructure.Import.files\\Infrastructure.Import.files.csproj"
+              "C:\\GITHUB\\Service-Import-xml-files\\Infrastructure.Import.files\\Infrastructure.Import.files.csproj": {
+                "projectPath": "C:\\GITHUB\\Service-Import-xml-files\\Infrastructure.Import.files\\Infrastructure.Import.files.csproj"
               }
             }
           }
@@ -51,6 +51,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -76,14 +80,14 @@
         }
       }
     },
-    "C:\\GITHUB\\Import files\\Entities.Import.files\\Entities.Import.files.csproj": {
+    "C:\\GITHUB\\Service-Import-xml-files\\Entities.Import.files\\Entities.Import.files.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GITHUB\\Import files\\Entities.Import.files\\Entities.Import.files.csproj",
+        "projectUniqueName": "C:\\GITHUB\\Service-Import-xml-files\\Entities.Import.files\\Entities.Import.files.csproj",
         "projectName": "Entities.Import.files",
-        "projectPath": "C:\\GITHUB\\Import files\\Entities.Import.files\\Entities.Import.files.csproj",
+        "projectPath": "C:\\GITHUB\\Service-Import-xml-files\\Entities.Import.files\\Entities.Import.files.csproj",
         "packagesPath": "C:\\Users\\LENOVO-EQP364\\.nuget\\packages\\",
-        "outputPath": "C:\\GITHUB\\Import files\\Entities.Import.files\\obj\\",
+        "outputPath": "C:\\GITHUB\\Service-Import-xml-files\\Entities.Import.files\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -135,14 +139,14 @@
         }
       }
     },
-    "C:\\GITHUB\\Import files\\Import Files Service\\Import Files Service.csproj": {
+    "C:\\GITHUB\\Service-Import-xml-files\\Import Files Service\\Import Files Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GITHUB\\Import files\\Import Files Service\\Import Files Service.csproj",
+        "projectUniqueName": "C:\\GITHUB\\Service-Import-xml-files\\Import Files Service\\Import Files Service.csproj",
         "projectName": "Import Files Service",
-        "projectPath": "C:\\GITHUB\\Import files\\Import Files Service\\Import Files Service.csproj",
+        "projectPath": "C:\\GITHUB\\Service-Import-xml-files\\Import Files Service\\Import Files Service.csproj",
         "packagesPath": "C:\\Users\\LENOVO-EQP364\\.nuget\\packages\\",
-        "outputPath": "C:\\GITHUB\\Import files\\Import Files Service\\obj\\",
+        "outputPath": "C:\\GITHUB\\Service-Import-xml-files\\Import Files Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -163,14 +167,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\GITHUB\\Import files\\Business.Import.files\\Business.Import.files.csproj": {
-                "projectPath": "C:\\GITHUB\\Import files\\Business.Import.files\\Business.Import.files.csproj"
+              "C:\\GITHUB\\Service-Import-xml-files\\Business.Import.files\\Business.Import.files.csproj": {
+                "projectPath": "C:\\GITHUB\\Service-Import-xml-files\\Business.Import.files\\Business.Import.files.csproj"
               },
-              "C:\\GITHUB\\Import files\\Entities.Import.files\\Entities.Import.files.csproj": {
-                "projectPath": "C:\\GITHUB\\Import files\\Entities.Import.files\\Entities.Import.files.csproj"
+              "C:\\GITHUB\\Service-Import-xml-files\\Entities.Import.files\\Entities.Import.files.csproj": {
+                "projectPath": "C:\\GITHUB\\Service-Import-xml-files\\Entities.Import.files\\Entities.Import.files.csproj"
               },
-              "C:\\GITHUB\\Import files\\Infrastructure.Import.files\\Infrastructure.Import.files.csproj": {
-                "projectPath": "C:\\GITHUB\\Import files\\Infrastructure.Import.files\\Infrastructure.Import.files.csproj"
+              "C:\\GITHUB\\Service-Import-xml-files\\Infrastructure.Import.files\\Infrastructure.Import.files.csproj": {
+                "projectPath": "C:\\GITHUB\\Service-Import-xml-files\\Infrastructure.Import.files\\Infrastructure.Import.files.csproj"
               }
             }
           }
@@ -188,6 +192,18 @@
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Microsoft.VisualStudio.Utilities": {
+              "target": "Package",
+              "version": "[17.5.33428.366, )"
+            },
+            "NUnitTestAdapter.WithFramework": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -210,14 +226,14 @@
         }
       }
     },
-    "C:\\GITHUB\\Import files\\Infrastructure.Import.files\\Infrastructure.Import.files.csproj": {
+    "C:\\GITHUB\\Service-Import-xml-files\\Infrastructure.Import.files\\Infrastructure.Import.files.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GITHUB\\Import files\\Infrastructure.Import.files\\Infrastructure.Import.files.csproj",
+        "projectUniqueName": "C:\\GITHUB\\Service-Import-xml-files\\Infrastructure.Import.files\\Infrastructure.Import.files.csproj",
         "projectName": "Infrastructure.Import.files",
-        "projectPath": "C:\\GITHUB\\Import files\\Infrastructure.Import.files\\Infrastructure.Import.files.csproj",
+        "projectPath": "C:\\GITHUB\\Service-Import-xml-files\\Infrastructure.Import.files\\Infrastructure.Import.files.csproj",
         "packagesPath": "C:\\Users\\LENOVO-EQP364\\.nuget\\packages\\",
-        "outputPath": "C:\\GITHUB\\Import files\\Infrastructure.Import.files\\obj\\",
+        "outputPath": "C:\\GITHUB\\Service-Import-xml-files\\Infrastructure.Import.files\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -238,8 +254,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\GITHUB\\Import files\\Entities.Import.files\\Entities.Import.files.csproj": {
-                "projectPath": "C:\\GITHUB\\Import files\\Entities.Import.files\\Entities.Import.files.csproj"
+              "C:\\GITHUB\\Service-Import-xml-files\\Entities.Import.files\\Entities.Import.files.csproj": {
+                "projectPath": "C:\\GITHUB\\Service-Import-xml-files\\Entities.Import.files\\Entities.Import.files.csproj"
               }
             }
           }
@@ -253,6 +269,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

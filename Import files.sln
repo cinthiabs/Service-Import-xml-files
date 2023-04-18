@@ -9,15 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{81
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4DB08B93-2AAC-48E3-8753-F0F20300BCC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Import Files Service", "Import Files Service\Import Files Service.csproj", "{A71DE53C-1A2C-428A-B3C7-84A349E4DA9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Import Files Service", "Import Files Service\Import Files Service.csproj", "{A71DE53C-1A2C-428A-B3C7-84A349E4DA9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.Import.files", "Business.Import.files\Business.Import.files.csproj", "{9C55824D-5A69-40DC-8B4C-6DD08A36D3C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.Import.files", "Business.Import.files\Business.Import.files.csproj", "{9C55824D-5A69-40DC-8B4C-6DD08A36D3C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Import.files", "Infrastructure.Import.files\Infrastructure.Import.files.csproj", "{6517244B-B59D-4CCA-913D-556C0DFD659A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Import.files", "Infrastructure.Import.files\Infrastructure.Import.files.csproj", "{6517244B-B59D-4CCA-913D-556C0DFD659A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{6E8308D3-CA92-43F1-9159-F93963A5FC1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities.Import.files", "Entities.Import.files\Entities.Import.files.csproj", "{A77A9013-FE95-497F-9852-0006C3F0268D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities.Import.files", "Entities.Import.files\Entities.Import.files.csproj", "{A77A9013-FE95-497F-9852-0006C3F0268D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
