@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8SDEgxKOCuQuSbnJ+zjpf9v0hUaGCVw1d8blcnRGjc9szatQfKe0lUDESnvBrXT3cqodMwumqbzVhKZbL7SbYQ==",
+  "success": true,
+  "projectFilePath": "C:\\GITHUB\\Import files\\Business.Import.files\\Business.Import.files.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LENOVO-EQP364\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
