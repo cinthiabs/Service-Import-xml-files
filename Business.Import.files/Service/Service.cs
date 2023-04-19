@@ -28,31 +28,44 @@ namespace Business.Import.files.Service
 
         public void Execute()
         {
-            var inputFolder = "C:\\Files\\";
-            var outputFolder = "C:\\Files\\Output\\";
+            Folder folder = new Folder()
+            {
+                inputFolder  = "C:\\Files\\",
+                outputFolder = "C:\\Files\\Output\\",
+                errorFolder  = "C:\\Files\\Error\\"
+            };
 
-            var searchFiles = GetFiles(inputFolder);
+            var searchFiles = GetFiles(folder);
             var count = searchFiles.Count();
             if (count != 0)
             {
-                ProcessOrder(searchFiles, outputFolder, inputFolder );
+                ProcessOrder(searchFiles, folder);
             }
             else Console.WriteLine("empty folder!"); 
         }
-        public void ProcessOrder(string[] searchFiles, string outputFolder, string inputFolder)
+        public void ProcessOrder(string[] searchFiles, Folder folders)
         {
             for (var file = 0; file < searchFiles.Length; file++)
             {
                 var reader = FileReader(searchFiles[file]);
-                ValidOrder(reader, outputFolder , searchFiles[file], inputFolder);
+                if (reader.Document == null)
+                {
+                    MoveFile(searchFiles[file], folders, 0);
+                    _Query.InsertLog("Error in the order!", searchFiles[file], 0);
+                    Console.WriteLine($@"Error in the order! {searchFiles[file]}");
+                }
+                else
+                {
+                    ValidOrder(reader, searchFiles[file], folders);
+                }
             }
         }
-        public string[] GetFiles(string file)
+        public string[] GetFiles(Folder file)
         {
-            string[] files = Directory.GetFiles(file);
+            string[] files = Directory.GetFiles(file.inputFolder);
             return files;
         }
-        public bool ValidOrder(Order order , string outputFolder , string File, string inputFolder)
+        public bool ValidOrder(Order order, string File, Folder folders)
         {
             var query = true;
             try
@@ -65,28 +78,64 @@ namespace Business.Import.files.Service
                     {
                         var jsonString = JsonSerializer.Serialize(order);
                         _Query.InsertLog(jsonString, File, 1);
-                        MoveFile(File, outputFolder, inputFolder);
+                        MoveFile(File, folders,1);
                         Console.WriteLine($@"Imported order! {order.Document}");
                     }
+                    else
+                    {
+                        MoveFile(File, folders, 0);
+                        Console.WriteLine($@"Error in the order! {order.Document}");
+                    }
                 }
-                else
+                else 
                 {
-                    MoveFile(File, outputFolder, inputFolder);
+                    MoveFile(File,folders,1);
                     Console.WriteLine("Order already imported, moved");
                 }
             }
             catch (Exception Ex)
             {
+                MoveFile(File, folders, 0);
+                Console.WriteLine($@"Error in the order! {order.Document}");
                 _Query.InsertLog("Error", Ex.Message, 0);
             }
 
             return query;
         }
-        public void MoveFile(string File, string outputFolder, string inputFolder)
+        public void MoveFile(string File, Folder folders,int sucess)
         {
+            string config = "";
             var filename = File.Split('\\');
             string name = filename[filename.Length - 1];
-            Directory.Move(inputFolder + name, outputFolder + name);
+          
+            if (sucess == 1)
+            {
+                config = folders.outputFolder;
+                if (!Directory.Exists(config))
+                {
+                    Directory.CreateDirectory(config);
+                }
+                else
+                {
+                    FileInfo file = new FileInfo(config + name);
+                    if (file.Exists) file.Delete();
+                }
+            }            
+            else 
+            { 
+                config = folders.errorFolder;
+                if (!Directory.Exists(config))
+                {
+                    Directory.CreateDirectory(config);
+                }
+                else
+                {
+                    FileInfo file = new FileInfo(config + name);
+                    if (file.Exists) file.Delete();
+                }
+            }
+
+            Directory.Move(folders.inputFolder + name, config + name);
         }
         public Order FileReader(string file)
         {
@@ -149,6 +198,7 @@ namespace Business.Import.files.Service
             }
             catch (Exception Ex)
             {
+                 Console.WriteLine($@"Error in the order! {order.Document}");
                 _Query.InsertLog("Error", Ex.Message, 0);
             }
 

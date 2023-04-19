@@ -11,10 +11,10 @@ namespace Business.Import.files.Interface
     public interface IService
     {
         public void Execute();
-        public string[] GetFiles(string file);
+        public string[] GetFiles(Folder folders);
         public Order FileReader(string file);
-        public void ProcessOrder(string[] searchFiles, string outputFolder, string inputFolder);
-        public bool ValidOrder(Order order, string outputFolder, string File, string inputFolder);
-        public void MoveFile(string File, string outputFolder, string inputFolder);
+        public void ProcessOrder(string[] searchFiles, Folder folders);
+        public bool ValidOrder(Order order,string File, Folder folders);
+        public void MoveFile(string File, Folder folders, int sucess);
     }
 }

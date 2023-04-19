@@ -23,7 +23,7 @@ namespace Import_Files_Service
             {
                 _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
                 _Service.Execute();
-                await Task.Delay(30000, stoppingToken);
+                await Task.Delay(180000, stoppingToken);
             }
         }
     }
