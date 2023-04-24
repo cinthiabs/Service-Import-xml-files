@@ -55,7 +55,8 @@ namespace Infrastructure.Import.files.Query
                         ,additional_information
                         ,value
                         ,volume
-                        ,weight)
+                        ,weight
+                        ,StatusID)
 
                 Values( '{order.Document}',
                         '{order.KeyNF}',
@@ -86,7 +87,8 @@ namespace Infrastructure.Import.files.Query
                         '{order.Additional_information}',
                         '{order.Value}',
                         '{order.Volume}',
-                        '{order.Weight}'
+                        '{order.Weight}',
+                        '1'
                         );";
                 retorno = ExecuteCommandString(sqlQuery);
             }
